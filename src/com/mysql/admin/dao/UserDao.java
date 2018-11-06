@@ -38,7 +38,7 @@ public class UserDao {
 			}
 
 		}
-
+		dbConnection.closeConnection();
 		return user;
 	}
 }
